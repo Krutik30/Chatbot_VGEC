@@ -1,0 +1,504 @@
+{
+  "main": {
+    "tags": [
+      "general",
+      "scholarship",
+      "ncc",
+      "nss",
+      "gdsc",
+      "ieee",
+      "ssip",
+      "club",
+      "clubs",
+      "faculty",
+      "library",
+      "news",
+      "certificate",
+      "application"
+    ],
+    "general": {
+      "tags": [
+        "induction",
+        "admission"
+      ],
+      "induction": {
+        "tags": [
+          "time",
+          "dete",
+          "report",
+          "dairy",
+          "information",
+          "about",
+          "overview",
+          "activities",
+          "activity",
+          "default"
+        ]
+      }
+    },
+    "scholarship": {
+      "tags": [
+        "digital",
+        "mysy",
+        "food",
+        "foodbill",
+        "bhojanalay",
+        "nsp",
+        "default"
+      ],
+      "digital": {
+        "tags": [
+          "criteria",
+          "eligibility",
+          "document",
+          "documents",
+          "process",
+          "procedure",
+          "step",
+          "steps",
+          "faculty",
+          "default"
+        ]
+      },
+      "mysy": {
+        "tags": [
+          "criteria",
+          "eligibility",
+          "document",
+          "documents",
+          "process",
+          "procedure",
+          "step",
+          "steps",
+          "faculty",
+          "default"
+        ]
+      },
+      "nsp": {
+        "tags": [
+          "criteria",
+          "eligibility",
+          "document",
+          "documents",
+          "process",
+          "procedure",
+          "step",
+          "steps",
+          "faculty",
+          "default"
+        ]
+      },
+      "food": {
+        "tags": [
+          "criteria",
+          "eligibility",
+          "document",
+          "documents",
+          "process",
+          "procedure",
+          "step",
+          "steps",
+          "faculty",
+          "default"
+        ]
+      },
+      "bhojanalay": {
+        "tags": [
+          "criteria",
+          "eligibility",
+          "document",
+          "documents",
+          "process",
+          "procedure",
+          "step",
+          "steps",
+          "faculty",
+          "default"
+        ]
+      },
+      "foodbill": {
+        "tags": [
+          "criteria",
+          "eligibility",
+          "document",
+          "documents",
+          "process",
+          "procedure",
+          "step",
+          "steps",
+          "faculty",
+          "default"
+        ]
+      }
+    },
+    "ncc": {
+      "tags": [
+        "information",
+        "about",
+        "overview",
+        "selection",
+        "join",
+        "joining",
+        "activity",
+        "activities",
+        "default"
+      ]
+    },
+    "nss": {
+      "tags": [
+        "information",
+        "about",
+        "overview",
+        "activity",
+        "activities",
+        "selection",
+        "join",
+        "joining",
+        "join",
+        "default"
+      ]
+    },
+    "gdsc": {
+      "tags": [
+        "join",
+        "joining",
+        "selection",
+        "selected",
+        "default"
+      ]
+    },
+    "ieee": {
+      "tags": [
+        "information",
+        "about",
+        "overview",
+        "join",
+        "selection",
+        "selected",
+        "membership",
+        "charges",
+        "activity",
+        "activities",
+        "event",
+        "events",
+        "default"
+      ]
+    },
+    "ssip": {
+      "tags": [
+        "induction",
+        "about",
+        "overview",
+        "join",
+        "apply",
+        "proposal",
+        "funding",
+        "committee",
+        "faculty",
+        "form",
+        "forms",
+        "sucess",
+        "stories",
+        "default"
+      ]
+    },
+    "club": {
+      "tags": [
+        "default"
+      ]
+    },
+    "clubs": {
+      "tags": [
+        "default"
+      ]
+    },
+    "faculty": {
+      "tags": [
+        "computer",
+        "communication",
+        "chemical",
+        "civil",
+        "electrical",
+        "information",
+        "instrument",
+        "instruments",
+        "instrumentation",
+        "mechanical",
+        "power",
+        "science",
+        "default"
+      ],
+      "computer": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "communication": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "chemical": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "civil": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "electrical": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "information": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "instrument": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "instruments": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "instrumentation": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "mechanical": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "power": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      },
+      "science": {
+        "tags": [
+          "department",
+          "hod",
+          "branch",
+          "enginnering",
+          "h.o.d.",
+          "h.o.d",
+          "default"
+        ]
+      }
+    },
+    "library": {
+      "tags": [
+        "time",
+        "schedule",
+        "process",
+        "procedure",
+        "book",
+        "books",
+        "facilities",
+        "faculty",
+        "faculties",
+        "default"
+      ],
+      "time": {
+        "tags": [
+          "start",
+          "open",
+          "break",
+          "close",
+          "working",
+          "issue",
+          "renew",
+          "return",
+          "reading",
+          "schedule",
+          "default"
+        ]
+      },
+      "process": {
+        "tags": [
+          "registration",
+          "issue",
+          "issuing",
+          "renew",
+          "renewal",
+          "return",
+          "default"
+        ]
+      },
+      "procedure": {
+        "tags": [
+          "registration",
+          "issue",
+          "issuing",
+          "renew",
+          "renewal",
+          "return",
+          "default"
+        ]
+      }
+    },
+    "news": {
+      "tags": [
+        "placement",
+        "events",
+        "industrial",
+        "club",
+        "achievments",
+        "newsletter",
+        "latest",
+        "nba",
+        "sports",
+        "academic",
+        "default"
+      ],
+      "events": {
+        "tags": [
+          "seminar",
+          "hackathon",
+          "default"
+        ]
+      },
+      "achievments": {
+        "tags": [
+          "sports",
+          "technical",
+          "gate",
+          "default"
+        ]
+      }
+    },
+    "certificate": {
+      "tags": [
+        "bonafide",
+        "custom",
+        "default"
+      ],
+      "bonafide": {
+        "tags": [
+          "document",
+          "process",
+          "documents",
+          "procedure",
+          "step",
+          "steps",
+          "default"
+        ]
+      },
+      "custom": {
+        "tags": [
+          "document",
+          "process",
+          "documents",
+          "procedure",
+          "step",
+          "steps",
+          "default"
+        ]
+      }
+    },
+    "application": {
+      "tags": [
+        "duplicate",
+        "refund",
+        "default"
+      ],
+      "duplicateid": {
+        "tags": [
+          "document",
+          "process",
+          "documents",
+          "procedure",
+          "step",
+          "steps",
+          "default"
+        ]
+      },
+      "fee refund": {
+        "tags": [
+          "document",
+          "process",
+          "documents",
+          "procedure",
+          "step",
+          "steps",
+          "default"
+        ]
+      }
+    }
+  }
+}

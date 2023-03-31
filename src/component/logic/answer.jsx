@@ -29,6 +29,9 @@ function getAnswer(questionString){
         theObjArray = theObjArray[matchKey];
         theAns = theAns[matchKey];
         ansArr = questArr.filter(x => theArray.includes(x));
+        if(ansArr == undefined || ansArr.length == 0){
+            ansArr = ["default"];
+        }
         searchKey(ansArr[0]);
     }
     searchKey(ansArr[0]);

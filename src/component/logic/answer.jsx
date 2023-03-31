@@ -4,7 +4,7 @@ import myArrayJson from '../../../arrays.json';
 // const myArrayJson = require('../../../arrays.json');
 
 function getAnswer(questionString){
-    console.log(questionString)
+    // console.log(questionString)
     let answerString;
     let input = questionString;
     input = input.toLowerCase();

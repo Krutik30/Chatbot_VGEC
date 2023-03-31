@@ -17,7 +17,6 @@ function getAnswer(questionString){
     function searchKey(matchKey){
         if(ansArr == undefined || ansArr.length == 0){
             ansArr = ["default"];
-            return ansArr;
         }
         if(typeof(theAns[matchKey]) != 'object'){
             // console.log(theAns[matchKey]);
@@ -32,6 +31,7 @@ function getAnswer(questionString){
         theObjArray = theObjArray[matchKey];
         theAns = theAns[matchKey];
         ansArr = questArr.filter(x => theArray.includes(x));
+        
         searchKey(ansArr[0]);
     }
     searchKey(ansArr[0]);

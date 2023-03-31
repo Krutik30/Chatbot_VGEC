@@ -13,7 +13,7 @@ function getAnswer(questionString){
     let theObjArray = myArrayJson.main;
     let theAns = myJson;
     let ansArr = questArr.filter(x => theArray.includes(x));
-    if((ansArr == undefined || ansArr.length == 0) && ){
+    if((ansArr == undefined || ansArr.length == 0)){
         ansArr = ["default"];
     }
 

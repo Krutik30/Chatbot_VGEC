@@ -33,7 +33,7 @@ function Userinputarea() {
       // console.log(question);
       temp = getAnswer(question);
       setAnswer(temp);
-      console.log("2 - " , answer);
+      // console.log("2 - " , answer);
       setTag([question , answer]);
       // console.log(tag);
       setResponse(old => [...old , ...tag]);
@@ -67,7 +67,6 @@ function Userinputarea() {
     <div className="main">
       <div className="title">VGEC_BOT</div>
       <div className='scrollBox'>
-        {/* {console.log(response)} */}
           <ul>
             {
                 arrayP      

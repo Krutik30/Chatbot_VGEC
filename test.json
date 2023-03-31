@@ -361,5 +361,6 @@
             "default": "if you don't get your desire answer repeat the question with following words like process,procedure,steps,step"
         },
         "default": "You can ask your question again for duplicate I'd, fee refund"
-    }
+    },
+    "default" : "Sorry , I can't Understand.\nPlease Enter appropriate Question."
 } 

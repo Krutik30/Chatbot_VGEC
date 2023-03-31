@@ -32,7 +32,7 @@ body{
 .scrollBox{
   margin: 0 auto;
   padding: 0;
-  height: 72%;
+  height: 77%;
   width: 95%;
   overflow-y: scroll;
   overflow-x: auto;
@@ -43,6 +43,7 @@ body{
   width: 100%;
   height: 40px;
   margin-top: -1%;
+  position: fixed;
 }
 
 .input{

@@ -3,8 +3,6 @@
 import { useEffect, useState , useRef } from "react";
 import getAnswer from './logic/answer'
 
-
-
 function Userinputarea() {
 
     const[question,setQuestion] = useState("");
@@ -39,6 +37,7 @@ function Userinputarea() {
       setResponse(old => [...old , ...tag]);
       console.log(response);
       setQuestion("");
+
     }
     // console.log(response);
     // console.log(question);
@@ -72,7 +71,7 @@ function Userinputarea() {
       </div>
       <div className='inputArea'>
         <input type="text" className="input" name="question" id="question" onChange={updateQuestion} value={question} />
-        <button name="send" className="button" id="send-button" type="submit" onClick={handleClick} >
+        <button name="send" className="button" id="send" type="submit"  onClick={handleClick} >
           <i className="fa fa-send"></i>
         </button>
       </div>

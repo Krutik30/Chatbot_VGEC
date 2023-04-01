@@ -8,12 +8,12 @@ import getAnswer from './logic/answer'
 function Userinputarea() {
 
     const[question,setQuestion] = useState("");
+    const[t , setT] = useState(0);
     const[answer , setAnswer] = useState("");
     const[response , setResponse] = useState([]);
     const[tag , setTag] = useState([]);
     // console.log(answerString);
     let temp;
-
     // useEffect(() => {
     //   temp = getAnswer(question);
     //   // console.log(question);
@@ -37,31 +37,13 @@ function Userinputarea() {
       setTag([question , answer]);
       // console.log(tag);
       setResponse(old => [...old , ...tag]);
-      // console.log(response);
+      console.log(response);
       setQuestion("");
     }
     // console.log(response);
     // console.log(question);
     // console.log(tag);
     // console.log(tagObj);
-    const arrayP = (
-      response.filter(ele => {
-        if(ele != null || ele != undefined || ele != ''){
-          return ele;
-        }
-      })
-              .map((ele , index) => {
-          if(index % 2 == 0){
-            return (
-              <li className="userQ" key={index}>{ele}</li>
-            )
-          }else{
-            return (
-              <li className="userA" key={index}>{ele}</li>
-            )
-          }
-      })
-    )
 
   return (
     <div className="main">
@@ -69,14 +51,29 @@ function Userinputarea() {
       <div className='scrollBox'>
           <ul>
             {
-                arrayP      
+              response.map((ele , index) => {
+                  if(index % 6 == 0){
+                    if(ele != null || ele != undefined || ele != ''){
+                        return (
+                          <li className="userQ" key={index}>{ele}</li>
+                        )
+                    }
+                  }
+                  else if(index % 6 == 3){
+                    if(ele != null || ele != undefined || ele != ''){
+                        return (
+                          <li className="userA" key={index}>{ele}</li>
+                        )
+                    }
+                  }
+              })      
             }
           </ul>
       </div>
       <div className='inputArea'>
         <input type="text" className="input" name="question" id="question" onChange={updateQuestion} value={question} />
         <button name="send" className="button" id="send-button" type="submit" onClick={handleClick} >
-        <i className="fa fa-send-o"></i>
+          <i className="fa fa-send"></i>
         </button>
       </div>
     </div>
@@ -85,3 +82,6 @@ function Userinputarea() {
 }
 export default Userinputarea;
 
+
+
+// pop karva nu 6 yaad rakhje
